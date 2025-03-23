@@ -23,18 +23,20 @@ extrato = ""
 
 # Criando um laço de repetição onde é definido que a condição sempre será verdadeira:
 while True:
-
+    time.sleep(1)
     # Atribui à variável "opcao" o número da ação que escolhemos.
     # O menu sempre será mostrado pois o mesmo está dentro do input que está no laço de repetição onde a condição sempre sera verdadeira.
     opcao = input(menu)
 
     # Opção de depósito:
     if opcao == "1":
+        time.sleep(0.6)
         # O usuário irá digitar o valor de depósito, onde o valor tem que ser maior que 0.
         valor = float(input("Por favor, digite o valor do depósito: R$"))
         if valor > 0:
             # Se o valor for maior que 0, o valor deve ser somado na váriavel saldo.
             saldo = saldo + valor
+            print("Depósito no valor de", valor, "reais concluída com sucesso.")
             # O valor é atribuído na variável extrato com uma quebra de linha no final.
             extrato = extrato + f"Depósito: R$ {valor:.2f}\n"
         else:
@@ -42,6 +44,7 @@ while True:
 
     # Opção de Saque:
     elif opcao == "2":
+        time.sleep(0.6)
         # O usuário irá digitar o valor do saque. Para osaque ser efetuado é preciso seguir algumas regras.
         valorSaque = float(input("Por favor, digite o valor do saque: R$"))
         # O valor do saque tem que ser maior que 0 e menor ou igual que R$500,oo.
@@ -64,6 +67,7 @@ while True:
 
     # Opção de extrato:
     elif opcao == "3":
+        time.sleep(0.6)
         print("==========Extrato==========")
         # Se operações ainda não foram feitas, será impresso na tela.
         print("Não foram realizadas operações em sua conta." if not extrato else extrato)
@@ -75,7 +79,7 @@ while True:
     elif opcao == "0":
         # É mostrado na tela um agradecimento e após 5 segundos o programa é encerrado.
         print("Obrigado!")
-        time.sleep(5)
+        time.sleep(1)
         break
 
     # Caso o usuário digite um número que não é referente a nenhuma ação, o programa apresentará erro.
