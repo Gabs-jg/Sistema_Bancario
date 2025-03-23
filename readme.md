@@ -3,7 +3,7 @@
 ### 📚Esse projeto foi um desafio da plataforma DIO no bootcamp Python AI Back-End Developer.
 #
 
-👨‍💻Nesse projeto foi utilizado conceitos simples de python, como declaração de variáveis, estruturas condicionais, estruturas de repetição e a utilização da biblioteca time.
+👨‍💻Nesse repositório possui 2 projetos de sistemas bancários, um mais simples que foi utilizado conceitos de declaração de variáveis, estruturas condicionais, estruturas de repetição e a utilização da biblioteca time e outro que além desses conceitos foram também utilizados os conceitos de funções, arrays e a biblioteca textwrap. O Sistema Bancário V2 é uma atualização do Sistema Bancário V1.
 
 # 💻Linguagens: 
 <img
