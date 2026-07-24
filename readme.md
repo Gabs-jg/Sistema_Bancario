@@ -3,7 +3,7 @@
 ### 📚Esse projeto foi um desafio da plataforma DIO no bootcamp Python AI Back-End Developer.
 #
 
-👨‍💻Nesse repositório possui 2 projetos de sistemas bancários, um mais simples que foi utilizado conceitos de declaração de variáveis, estruturas condicionais, estruturas de repetição e a utilização da biblioteca time e outro que além desses conceitos foram também utilizados os conceitos de funções, arrays e a biblioteca textwrap. O Sistema Bancário V2 é uma atualização do Sistema Bancário V1.
+👨‍💻Nesse repositório possui 3 projetos de sistemas bancários, um mais simples que foi utilizado conceitos de declaração de variáveis, estruturas condicionais, estruturas de repetição e a utilização da biblioteca time, outro que além desses conceitos foram também utilizados os conceitos de funções, arrays e a biblioteca textwrap e o outro que utiliza Programação Orientada a Objetos (POO). O Sistema Bancário V3 é uma atualização do Sistema Bancário V2 que consequentemente é uma atualização do Sistema Bancário V1.
 
 # 💻Linguagens: 
 <img
